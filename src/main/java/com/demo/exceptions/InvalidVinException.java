@@ -11,7 +11,7 @@ public class InvalidVinException extends RuntimeException {
 	}
 	
 	public InvalidVinException(Throwable cause) {
-		super(casue);
+		super(cause);
 	}
 	
 	public InvalidVinException(String message, Throwable cause) {

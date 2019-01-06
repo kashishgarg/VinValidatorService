@@ -17,7 +17,6 @@ public class VinValidatorController {
 
 	@GetMapping(path = "/validate/{vin}", produces = "application/json")
 	public Boolean validate(@PathVariable("vin") String vin) {
-		
 		return vinValidatorService.validate(vin);
 	}
 }
